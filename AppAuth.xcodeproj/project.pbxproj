@@ -1842,7 +1842,7 @@
 					};
 					341741EF1C5D8283000EF209 = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = "";
 					};
 					341AA4CD1E7F392C00FCA5C6 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -2615,7 +2615,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.openid.AppAuthTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -2630,7 +2630,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.openid.AppAuthTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -2846,6 +2846,7 @@
 		340E73861C5D819B0076B1F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -2854,6 +2855,7 @@
 		340E73871C5D819B0076B1F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -2865,7 +2867,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/";
 				INFOPLIST_FILE = UnitTests/UnitTestsInfo.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.openid.appauth.AppAuthTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2882,7 +2884,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/";
 				INFOPLIST_FILE = UnitTests/UnitTestsInfo.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.openid.appauth.AppAuthTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2935,7 +2937,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.openid.AppAuth-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -2950,7 +2952,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.openid.AppAuth-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -3091,7 +3093,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				HEADER_SEARCH_PATHS = .;
 				INFOPLIST_FILE = UnitTests/UnitTestsInfo.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.openid.AppAuth-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3105,7 +3107,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				HEADER_SEARCH_PATHS = .;
 				INFOPLIST_FILE = UnitTests/UnitTestsInfo.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.openid.AppAuth-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3225,7 +3227,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.openid.AppAuth-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -3240,7 +3242,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.openid.AppAuth-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -3359,7 +3361,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				HEADER_SEARCH_PATHS = .;
 				INFOPLIST_FILE = UnitTests/UnitTestsInfo.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.openid.AppAuth-ExtensionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3373,7 +3375,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				HEADER_SEARCH_PATHS = .;
 				INFOPLIST_FILE = UnitTests/UnitTestsInfo.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.openid.AppAuth-ExtensionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
